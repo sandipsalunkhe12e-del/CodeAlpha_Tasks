@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(0,0,0,0.3);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 80px;
+}
+
+/* TEXT */
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text span {
+  color: #a855f7;
+}
+
+.hero-text h2 {
+  font-size: 35px;
+  color: #22c1c3;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn1 {
+  background: linear-gradient(to right, #22c1c3, #a855f7);
+  color: white;
+}
+
+.btn2 {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+/* IMAGE */
+.hero-img img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px;
+}
+
+/* CARDS */
+.card {
+  background: rgba(255,255,255,0.1);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
